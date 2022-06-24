@@ -217,7 +217,8 @@ outputs.
 uas_report(hast_ft1_info)
 
 ## Export image centroid, footprints, and minimum convex polygon as Shapefiles
-uas_exp_shp(hast_ft1_info)
+uas_exp_shp(hast_ft1_info, fp=TRUE, ctr=TRUE, mcp=TRUE)
+
 
 ## Generate estimated world files so the images can be imported into ArcGIS or QGIS
 uas_worldfile(hast_ft1_info)
